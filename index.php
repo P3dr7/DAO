@@ -38,4 +38,9 @@ $usuario = new Usuario();
 $usuario->loadById(4);
 $usuario->update("Professor Janilson", "Professor123");
 echo $usuario;*/
+
+$usuario = new Usuario();
+$usuario->loadById(3);
+$usuario->delete();
+echo $usuario;
 ?>
