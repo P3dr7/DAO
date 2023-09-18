@@ -28,10 +28,14 @@ $usuario->login("pedro", "senha123");
 
 echo $usuario*/
 
-//Testando Precudere
-$aluno = new Usuario("Pedro", "23Ped@");
-
+//Testando Precudere e colocando insert
+/*$aluno = new Usuario("Pedro", "23Ped@");
 $aluno->insert();
+echo $aluno;*/
 
-echo $aluno;
+/* Inserindo o metodo de update
+$usuario = new Usuario();
+$usuario->loadById(4);
+$usuario->update("Professor Janilson", "Professor123");
+echo $usuario;*/
 ?>
