@@ -23,8 +23,15 @@ echo json_encode($lista);*/
 echo json_encode($search);*/
 
 //carrega um usuario usando login e senha
-$usuario = new Usuario();
+/*$usuario = new Usuario();
 $usuario->login("pedro", "senha123");
 
-echo $usuario
+echo $usuario*/
+
+//Testando Precudere
+$aluno = new Usuario("Pedro", "23Ped@");
+
+$aluno->insert();
+
+echo $aluno;
 ?>
